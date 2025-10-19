@@ -48,7 +48,7 @@ Release/Deploy → CI/CD pipelines for seamless delivery.
 
 Operate/Monitor → Continuous visibility through Prometheus, Grafana, and **ELK**.
 
-🛠️ Key Tools in the DevOps Ecosystem
+## 🛠️ Key Tools in the DevOps Ecosystem
 | Category | Common Tools |	Function |
 |-------------------|-------------|----------|
 | Version Control |	Git, GitHub, GitLab |	Manage source code collaboratively |
@@ -66,7 +66,7 @@ Below is a simplified view of how DevOps integrates across teams and infrastruct
 ---------
 <img width="276" height="833" alt="image" src="https://github.com/user-attachments/assets/279352f9-2cff-4f6c-831c-5e0a3cc5c49f" />
 
-💻 **Hands-On Example — Automating App Setup and Deployment**
+## 💻 Hands-On Example — Automating App Setup and Deployment
 
 To make DevOps practical, let’s walk through a short automation exercise where we:
 - Set up Node.js and NPM.
@@ -135,7 +135,7 @@ sudo netstat -lntp | grep :**3000** *
 echo *✅ Node app deployed successfully!*
 ```
 
-🔍 ## What This Script Does
+## 🔍 What This Script Does
 
 - Automates setup for Node.js and NPM.
 - Pulls artifacts from AWS S3 (simulating CI/CD artifact storage).
@@ -144,7 +144,7 @@ echo *✅ Node app deployed successfully!*
 
 This represents the “Ops automation” side of DevOps — infrastructure setup and environment configuration as code.
 
-⚙️ ## Integrating Git for Continuous Deployment
+## ⚙️Integrating Git for Continuous Deployment
 The next stage is version control and CI/CD pipeline setup using Git. Below is a simple sequence of Git commands that push your local project to GitLab.
 
 ```
@@ -177,14 +177,14 @@ Continuous Integration (CI) starts the moment code changes are committed. A prop
 -	Build the Docker image,
 -	Deploy to staging automatically.
 
-🧮 **Sample CI/CD Flow Diagram:**
+## 🧮 Sample CI/CD Flow Diagram
 Here’s what the pipeline would look like conceptually.
 
 <img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/14aa11c2-fe8d-41e5-80e7-80f5a35348a1" />
 
 This flow captures the DevOps principle of continuous delivery — the ability to deploy changes anytime, automatically, with minimal human intervention.
 
-🧠 **Why DevOps Matters**
+## 🧠 Why DevOps Matters
 
 DevOps is not just about automation; it’s about delivering value quickly. Organizations that embrace DevOps experience:
 - 200× more frequent deployments
@@ -192,7 +192,7 @@ DevOps is not just about automation; it’s about delivering value quickly. Orga
 - 3× lower change failure rates
 
 
-📊 **Real-World Business Impact**
+## 📊 Real-World Business Impact
 
 | Metric	| Pre-DevOps |	Post-DevOps Adoption |
 |----------|----------------|-------------------------|
@@ -204,7 +204,7 @@ DevOps is not just about automation; it’s about delivering value quickly. Orga
 
 DevOps empowers teams to experiment, innovate, and recover fast — exactly what modern businesses need in a fast-paced digital world
 
-🧠 **DevOps Culture in Practice**
+## 🧠 DevOps Culture in Practice
 While tools and scripts are important, culture is the true core of DevOps success.
 Core cultural pillars include:
 - Collaboration: Shared ownership of the delivery pipeline.
@@ -216,7 +216,7 @@ Core cultural pillars include:
 
 This structure supports horizontal scalability, fault tolerance, and rapid recovery — cornerstones of resilient systems.
 
-🧩 **The Future of DevOps**
+## 🧩 The Future of DevOps
 
 The next generation of DevOps integrates AI (AIOps) and machine learning (MLOps) for predictive insights and automated decision-making.
 Expect to see:
@@ -225,13 +225,13 @@ Expect to see:
 - Automated anomaly detection.
 DevOps is evolving into a smarter, adaptive ecosystem.
 
-🏁 **Conclusion**
+## 🏁 Conclusion
 
 DevOps is more than a job title — it’s an aptitude.
 It represents a shift from isolated silos to integrated teams, from manual deployments to automation, from reactive to proactive management.
 Whether you’re a student learning scripting, a mid-level engineer setting up pipelines, or a senior architect defining enterprises.
 
-🧠**Key Learning Points**
+## 🧠Key Learning Points
 
 - Understand the DevOps culture and principles
 - Learn about core tools — Git, Jenkins, Docker, Terraform, Prometheus
