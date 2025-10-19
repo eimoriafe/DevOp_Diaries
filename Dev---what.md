@@ -170,7 +170,7 @@ git commit -m "New file added to test synchronization"
 git push
 
 ```
-## Why This Matters:
+## What is the relevance?
 Continuous Integration (CI) starts the moment code changes are committed. A properly configured GitLab or Jenkins pipeline can:
 -	Run automated tests
 -	Build the Docker image,
@@ -224,7 +224,8 @@ Expect to see:
 - Automated anomaly detection.
 DevOps is evolving into a smarter, adaptive ecosystem.
 
-🏁 **Conclusion
+🏁 **Conclusion**
+
 DevOps is more than a job title — it’s an aptitude.
 It represents a shift from isolated silos to integrated teams, from manual deployments to automation, from reactive to proactive management.
 Whether you’re a student learning scripting, a mid-level engineer setting up pipelines, or a senior architect defining enterprises.
