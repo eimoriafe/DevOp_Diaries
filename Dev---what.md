@@ -1,4 +1,4 @@
-<img width="1279" height="483" alt="image" src="https://github.com/user-attachments/assets/fdea95c9-97f7-4a21-afa7-d36fbf47f7ea" /># Dev-- wha?? — The Evolution from SysAdmin to DevOps and Why It Matters
+# Dev-- wha?? — The Evolution from SysAdmin to DevOps and Why It Matters
 
 ---
 
@@ -190,11 +190,10 @@ DevOps is not just about automation; it’s about delivering value quickly. Orga
 - 24× faster recovery from failures
 - 3× lower change failure rates
 
-(According to the 2023 DORA State of DevOps Report.)
 
-📊 Real-World Business Impact
+📊 **Real-World Business Impact**
 
-| Metric	| Before DevOps |	After DevOps Adoption |
+| Metric	| Pre-DevOps |	Post-DevOps Adoption |
 |----------|----------------|-------------------------|
 | Deployment Frequency	| Weekly/Monthly |	Multiple per day |
 | Lead Time for Changes |	Days or Weeks |	Minutes or Hours |
@@ -204,8 +203,8 @@ DevOps is not just about automation; it’s about delivering value quickly. Orga
 
 DevOps empowers teams to experiment, innovate, and recover fast — exactly what modern businesses need in a fast-paced digital world
 
-🧠 DevOps Culture in Practice
-While tools and scripts are important, culture is the true engine of DevOps success.
+🧠 **DevOps Culture in Practice**
+While tools and scripts are important, culture is the true core of DevOps success.
 Core cultural pillars include:
 - Collaboration: Shared ownership of the delivery pipeline.
 - Transparency: Open metrics, shared dashboards, and post-mortems.
@@ -216,7 +215,8 @@ Core cultural pillars include:
 
 This structure supports horizontal scalability, fault tolerance, and rapid recovery — cornerstones of resilient systems.
 
-🧩 The Future of DevOps
+🧩 **The Future of DevOps**
+
 The next generation of DevOps integrates AI (AIOps) and machine learning (MLOps) for predictive insights and automated decision-making.
 Expect to see:
 - Self-healing infrastructure.
@@ -224,7 +224,7 @@ Expect to see:
 - Automated anomaly detection.
 DevOps is evolving into a smarter, adaptive ecosystem.
 
-🏁 Conclusion
+🏁 **Conclusion
 DevOps is more than a job title — it’s an aptitude.
 It represents a shift from isolated silos to integrated teams, from manual deployments to automation, from reactive to proactive management.
 Whether you’re a student learning scripting, a mid-level engineer setting up pipelines, or a senior architect defining enterprises.
