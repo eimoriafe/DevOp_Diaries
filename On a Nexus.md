@@ -1,5 +1,5 @@
-## On a Nexus
-# 🌍 Introduction
+# On a Nexus
+## 🌍 Introduction
 
 Think of DevOps as a **digital assembly line** — where code is designed, built, tested, packaged, and delivered continuously.  
 Every piece of software that makes it into production is the result of dozens, sometimes hundreds, of moving parts: microservices, libraries, dependencies, and configurations.
@@ -57,13 +57,12 @@ It formalizes how binaries, images, and dependencies move through the delivery c
 # 🧠 The Philosophy Behind Artifact Management
 
 At a deeper level, Nexus embodies two foundational DevOps philosophies:
-**1. Shift Left on Security **
 
+### 1. Shift Left on Security
 By caching and validating dependencies internally, you control what enters your ecosystem.
 No rogue libraries, no unknown vulnerabilities — everything comes through a trusted gate.
 
-** 2. Continuous Delivery, not Continuous Chaos **
-
+### 2. Continuous Delivery, not Continuous Chaos **
 CI/CD is not about speed alone — it’s about reliable automation.
 Without controlled artifact flow, your deployment pipeline becomes brittle. Nexus ensures each stage pulls from a known-good binary, reducing “it worked on my machine” syndrome.
 
@@ -157,22 +156,22 @@ Visual Concept:
 Nexus bridges your internal and external dependencies under one access layer.
 
 ## 🧠 Applying the Concept: How Nexus Reinforces DevOps Principles
-1. Continuous Integration (CI)
+### 1. Continuous Integration (CI)
 
 When Jenkins builds new versions of an application, it stores them in Nexus.
 This creates a traceable history of all builds — every change, every version, every deployment.
 
-2. Continuous Delivery (CD)
+### 2. Continuous Delivery (CD)
 
 Deployments pull approved artifacts directly from Nexus.
 This guarantees production only ever uses validated versions.
 
-3. Infrastructure as Code (IaC)
+### 3. Infrastructure as Code (IaC)
 
 Terraform or Ansible configurations reference Nexus-hosted modules.
 Everything — code, artifacts, configuration — becomes versioned and declarative.
 
-4. Security and Compliance
+### 4. Security and Compliance
 
 By hosting internal artifacts and mirroring dependencies, organizations meet NIST and ISO 27001 controls related to software provenance and integrity.
 
