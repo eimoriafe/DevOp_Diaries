@@ -239,7 +239,7 @@ Whether you’re a student learning scripting, a mid-level engineer setting up p
 - Apply DevOps practically with a working automation script
 - Grasp how DevOps impacts real business outcomes
 
-*Let me know what you think*
+
 
 
 
