@@ -1,4 +1,4 @@
-##On a Nexus
+## On a Nexus
 # 🌍 Introduction
 
 Think of DevOps as a **digital assembly line** — where code is designed, built, tested, packaged, and delivered continuously.  
