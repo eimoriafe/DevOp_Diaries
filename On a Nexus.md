@@ -1,4 +1,5 @@
-## 🌍 Introduction: DevOps as the Digital Assembly Line
+##On a Nexus
+# 🌍 Introduction
 
 Think of DevOps as a **digital assembly line** — where code is designed, built, tested, packaged, and delivered continuously.  
 Every piece of software that makes it into production is the result of dozens, sometimes hundreds, of moving parts: microservices, libraries, dependencies, and configurations.
