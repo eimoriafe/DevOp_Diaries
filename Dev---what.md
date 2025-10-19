@@ -1,4 +1,5 @@
-# Dev-- wha?? — The Evolution from SysAdmin to DevOps and Why It Matters
+# Dev-- wha??
+## The Evolution from SysAdmin to DevOps and Why It Matters
 
 ---
 
