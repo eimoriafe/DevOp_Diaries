@@ -175,13 +175,12 @@ Continuous Integration (CI) starts the moment code changes are committed. A prop
 -	Run automated tests
 -	Build the Docker image,
 -	Deploy to staging automatically.
+```
 
 🧮 Sample CI/CD Flow Diagram
 Here’s what the pipeline would look like conceptually.
 
 <img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/14aa11c2-fe8d-41e5-80e7-80f5a35348a1" />
-
-<img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/29b7e081-4427-410b-8b05-517bf87b8f7b" />
 
 
 
