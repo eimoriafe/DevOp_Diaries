@@ -66,7 +66,7 @@ Below is a simplified view of how DevOps integrates across teams and infrastruct
 ---------
 <img width="276" height="833" alt="image" src="https://github.com/user-attachments/assets/279352f9-2cff-4f6c-831c-5e0a3cc5c49f" />
 
-💻 ## **Hands-On Example — Automating App Setup and Deployment**
+💻 **Hands-On Example — Automating App Setup and Deployment**
 
 To make DevOps practical, let’s walk through a short automation exercise where we:
 - Set up Node.js and NPM.
@@ -230,6 +230,8 @@ DevOps is evolving into a smarter, adaptive ecosystem.
 DevOps is more than a job title — it’s an aptitude.
 It represents a shift from isolated silos to integrated teams, from manual deployments to automation, from reactive to proactive management.
 Whether you’re a student learning scripting, a mid-level engineer setting up pipelines, or a senior architect defining enterprises.
+
+*Let me know what you think*
 
 
 
