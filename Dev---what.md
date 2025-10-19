@@ -65,7 +65,7 @@ Below is a simplified view of how DevOps integrates across teams and infrastruct
 ---------
 <img width="276" height="833" alt="image" src="https://github.com/user-attachments/assets/279352f9-2cff-4f6c-831c-5e0a3cc5c49f" />
 
-💻 Hands-On Example — Automating App Setup and Deployment
+💻 ## **Hands-On Example — Automating App Setup and Deployment**
 
 To make DevOps practical, let’s walk through a short automation exercise where we:
 - Set up Node.js and NPM.
@@ -74,75 +74,12 @@ To make DevOps practical, let’s walk through a short automation exercise where
 
 Below is the annotated Bash script you can execute on an Ubuntu VM.
 
-# EXERCISE: Automate Node.js App Setup and Deployment
-
+# Lab: Automate Node.js App Setup and Deployment
+```
 #!/bin/bash
-#EXERCISE 9: 8-extended Start Node App- 
-#Refresh repo index
-apt update -y
-
-#Create user environment variable 
-NEW_USER=myapp
-
-#Accept input into Log_directory
-read -p LOG_DIRECTORY
-
-if [ -d $LOG_DIRECTORY ]
-then
-    echo "$LOG_DIRECTORY exists"
-else
-    echo "creating a new directory"
-    mkdir -p $LOG_DIRECTORY
-
-#Install NodeJS
-apt install -y nodejs
-
-#install NPM
-apt install -y npm
-
-#Get versions of NodeJs and NPM and confirm both are installed
-nodejs_version=$(nodejs --version)
-npm_version=$(npm --version )
-
-if [ -z "$nodejs_version" ] && [ -z "npm_version" ]
-then
-	echo "Nodejs $nodejs_version and Npm $npm_version installed not present."
-else
-	echo "Nodejs $nodejs_version and Npm $npm_version present and  installed."
-fi
-
-Get artefact from AWS repo
-runuser -l $NEW_USER -c "wget https://node-envvars-artifact.s3.eu-west-2.amazonaws.com/bootcamp-node-envvars-project-1.0.0.tgz."
-
-#Unzip the tar file
-runuser -l $NEWUSER -c "tar -xvzf bootcamp-node-envvars-project-1.0.0.tgz"
-
-#Set environmental variables
-export APP_ENV=dev
-export DB_USER=myuser
-export DB_PWD=mysecret
-source ~/.bashrc
-
-#Change the directory to the directory of the unzipped tar file
-cd package/
-
-#Run NodeJS server in background
-npm install &
-node server.js & 
-
-#Check if node server is running
-ps -aux | grep nodejs
-
-#Show port in use
-sudo netstat -lntp | grep :3000
-
-
-
-
-`#!/bin/bash`
 
 **Refresh repository index**
-`apt update -y`
+apt update -y
 
 #Define environment variable
 `NEW_USER=myapp`
@@ -195,3 +132,59 @@ ps -aux | grep node
 sudo netstat -lntp | grep :**3000** *
 
 echo *✅ Node app deployed successfully!*
+```
+
+🔍 ## What This Script Does
+
+- Automates setup for Node.js and NPM.
+- Pulls artifacts from AWS S3 (simulating CI/CD artifact storage).
+- Configures environment variables for the app.
+- Starts the application automatically on port 3000.
+
+This represents the “Ops automation” side of DevOps — infrastructure setup and environment configuration as code.
+
+⚙️ ## Integrating Git for Continuous Deployment
+The next stage is version control and CI/CD pipeline setup using Git. Below is a simple sequence of Git commands that push your local project to GitLab.
+
+```
+# Clone and navigate into Git repository
+git clone git@gitlab.com:twn-devops-bootcamp/latest/03-git/git-exercises.git
+cd git-exercises
+
+# Set URL to your personal GitLab repo
+git remote set-url origin git@gitlab.com:exceloracle1/git-exercises.git
+
+# Confirm remote origin
+git remote -v
+
+# Configure Git to handle merge pulls
+git config pull.rebase false
+
+# Push code to remote repository
+git push -u origin main
+
+# Add a new file to test sync
+touch emmaFile
+git add .
+git commit -m "New file added to test synchronization"
+git push
+
+
+## Why This Matters:
+Continuous Integration (CI) starts the moment code changes are committed. A properly configured GitLab or Jenkins pipeline can:
+-	Run automated tests
+-	Build the Docker image,
+-	Deploy to staging automatically.
+
+🧮 Sample CI/CD Flow Diagram
+Here’s what the pipeline would look like conceptually:
+
+<img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/14aa11c2-fe8d-41e5-80e7-80f5a35348a1" />
+
+<img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/29b7e081-4427-410b-8b05-517bf87b8f7b" />
+
+
+
+
+
+
