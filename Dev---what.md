@@ -231,6 +231,14 @@ DevOps is more than a job title — it’s an aptitude.
 It represents a shift from isolated silos to integrated teams, from manual deployments to automation, from reactive to proactive management.
 Whether you’re a student learning scripting, a mid-level engineer setting up pipelines, or a senior architect defining enterprises.
 
+🧠**Key Learning Points**
+
+- Understand the DevOps culture and principles
+- Learn about core tools — Git, Jenkins, Docker, Terraform, Prometheus
+- Visualize CI/CD pipelines through diagrams and code
+- Apply DevOps practically with a working automation script
+- Grasp how DevOps impacts real business outcomes
+
 *Let me know what you think*
 
 
