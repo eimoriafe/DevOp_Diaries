@@ -177,7 +177,7 @@ Continuous Integration (CI) starts the moment code changes are committed. A prop
 -	Deploy to staging automatically.
 
 🧮 Sample CI/CD Flow Diagram
-Here’s what the pipeline would look like conceptually:
+Here’s what the pipeline would look like conceptually.
 
 <img width="234" height="877" alt="image" src="https://github.com/user-attachments/assets/14aa11c2-fe8d-41e5-80e7-80f5a35348a1" />
 
