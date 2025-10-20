@@ -1,3 +1,5 @@
+<img width="1051" height="748" alt="image" src="https://github.com/user-attachments/assets/f7469bf2-a30c-46ff-8d9a-489ec479ec8b" />
+
 # Dev-- wha??
 ## The Evolution from SysAdmin to DevOps and Why It Matters
 
