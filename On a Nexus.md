@@ -1,3 +1,5 @@
+<img width="1311" height="709" alt="image" src="https://github.com/user-attachments/assets/2ec04611-b127-474c-8c95-9d45bd90015a" />
+
 # On a Nexus
 ## 🌍 Introduction
 
