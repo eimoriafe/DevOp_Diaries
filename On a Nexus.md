@@ -75,11 +75,11 @@ In essence, Nexus transforms chaos into confidence.
 In cloud-native DevOps, where microservices and containers dominate, the need for a repository multiplies.
 
 Modern stacks rely on:
-Docker images
-Helm charts
-Terraform modules
-Node.js or Python packages
-Internal binaries
+Docker images,
+Helm charts,
+Terraform modules,
+Node.js or Python packages and
+Internal binaries.
 Each of these becomes an artifact — and each should be stored, versioned, and governed.
 Nexus serves as a universal warehouse for them all.
 
